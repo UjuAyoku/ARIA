@@ -16,7 +16,7 @@ Manually researching a topic means opening dozens of browser tabs, reading paper
 
 Available on request
 <p align="left">
-  <img src="" alt="Logo" width="400">
+  <img src="https://github.com/UjuAyoku/ARIA/blob/main/images/UI.PNG" alt="Logo" width="400">
 </p>
 
 
