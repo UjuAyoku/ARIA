@@ -1,10 +1,10 @@
 # ARIA: Audio Research & Intelligence Assistant
 
-An automated, AI-powered research assistant built with n8n. This workflow takes a research topic, fetches data from academic sources using Perplexity AI, generates a concise summary with OpenAI, performs content safety checks, converts the summary to audio, and delivers the final result via email, all while logging any potential policy violations.
+An automated, AI-powered research assistant built with n8n. This workflow takes a research topic, fetches data from academic sources using Perplexity AI, generates a concise summary with OpenAI, performs content safety checks, converts the summary to audio, and delivers the final result via email, while logging any potential policy violations.
 
 ## Features
 
-*   **Trigger:** Start via n8n Form
+*   **Trigger:** n8n search Form
 *   **Academic Source Retrieval:** Fetches data from reputable sources (arXiv, PubMed, etc.) using the Perplexity API.
 *   **AI-Powered Summarization:** Uses OpenAI's GPT models to create clear, conversational, and objective summaries.
 *   **Content Safety Check:** Automatically classifies generated text for safety policy violations using OpenAI's Moderation endpoint.
@@ -15,7 +15,7 @@ An automated, AI-powered research assistant built with n8n. This workflow takes 
 
 ## Workflow Overview
 
-1.  **Trigger:** The workflow is initiated (e.g., by submitting an n8n form or via a webhook).
+1.  **Trigger:** The workflow is initiated by submitting an n8n form.
 2.  **Perplexity Node:** The user's query is sent to Perplexity AI to retrieve information from academic sources.
 3.  **OpenAI Summarization:** The retrieved context is sent to OpenAI to generate a structured, audio-optimized summary.
 4.  **Content Moderation:** The summary is checked against OpenAI's moderation API.
