@@ -1,6 +1,6 @@
 # ARIA: Audio Research & Intelligence Assistant
 
-An automated, AI-powered research assistant built with n8n. This workflow takes a research topic, fetches data from academic sources using Perplexity AI, generates a concise summary with OpenAI, performs content safety checks, converts the summary to audio, and delivers the final result via email—all while logging any potential policy violations.
+An automated, AI-powered research assistant built with n8n. This workflow takes a research topic, fetches data from academic sources using Perplexity AI, generates a concise summary with OpenAI, performs content safety checks, converts the summary to audio, and delivers the final result via email, all while logging any potential policy violations.
 
 ## Features
 
