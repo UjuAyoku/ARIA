@@ -14,7 +14,7 @@ An automated, AI-powered research assistant built with n8n. This workflow takes 
 
 Available on request
 <p align="left">
-  <img src="https://github.com/UjuAyoku/smart-money/blob/main/smartmoney.PNG" alt="Logo" width="400">
+  <img src="" alt="Logo" width="400">
 </p>
 
 
