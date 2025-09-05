@@ -29,7 +29,7 @@ An automated, AI-powered research assistant built with n8n. This workflow takes 
 
 ## Requirements
 
-*   An n8n instance ([n8n Cloud](https://n8n.io/)
+*   An n8n instance [n8n Cloud](https://n8n.io/)
 *   API Keys for:
     *   [OpenAI](https://platform.openai.com/api-keys)
     *   [Perplexity AI](https://www.perplexity.ai/settings/api)
