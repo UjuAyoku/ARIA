@@ -25,4 +25,4 @@ An automated, AI-powered research assistant built with n8n. This workflow takes 
 6.  **Audio Generation:** The summary text is converted to an MP3 audio file.
 7.  **Email Delivery:** The audio file and summary text are sent to the user's email address.
    
-![n8n Workflow Diagram](./images/workflow-diagram.png) 
+![n8n Workflow Diagram](./images/workflow-diagram.PNG) 
