@@ -26,3 +26,27 @@ An automated, AI-powered research assistant built with n8n. This workflow takes 
 7.  **Email Delivery:** The audio file and summary text are sent to the user's email address.
    
 ![n8n Workflow Diagram](./images/workflow-diagram.PNG) 
+
+## Requirements
+
+*   An n8n instance ([Cloud](https://n8n.io/)
+*   API Keys for:
+    *   [OpenAI](https://platform.openai.com/api-keys)
+    *   [Perplexity AI](https://www.perplexity.ai/settings/api)
+*   Google Service Account Credentials (for Sheets logging)
+*   An SMTP Email Account (e.g., Gmail) for sending results
+  
+## Usage
+
+1.  **Activate the workflow** by submitting the topic and time period to focus the search on via the search form.
+    *   The workflow will run automatically.
+2.  **Receive Output:** Check your email for a message containing:
+    *   The researched summary in the body.
+    *   The narrated audio file (MP3) as an attachment.
+3.  **Review Logs:** If the content was flagged, the violation categories will be logged in your configured Google Sheet.
+
+## Customization
+
+*   **Change Output:** Replace the Email node with a node for a database to store results elsewhere.
+*   **Modify Prompt:** Edit the "System Prompt" in the OpenAI node to change the tone, length, or structure of the summaries.
+*   **Adjust Sources:** Add more tools besides the Perplexity tool to focus the search on specific sources for different domains.
