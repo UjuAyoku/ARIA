@@ -3,10 +3,20 @@
 <div align="center">
   <h1>ARIA: Audio Research & Intelligence Assistant</h1>
 An automated, AI-powered research assistant built with n8n. This workflow takes a research topic, fetches data from academic sources using Perplexity AI, generates a concise summary with OpenAI, performs content safety checks, converts the summary to audio, and delivers the final result via email, while logging any potential policy violations.
+
   
 [![Live Demo](https://img.shields.io/badge/Try-Live_Demo-green)]()
 
 </div>
+
+
+## Demo Link
+
+Available on request
+<p align="left">
+  <img src="https://github.com/UjuAyoku/smart-money/blob/main/smartmoney.PNG" alt="Logo" width="400">
+</p>
+
 
 ## Features
 
