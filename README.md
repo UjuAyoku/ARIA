@@ -46,8 +46,8 @@ Available upon request (contact me to see ARIA in action)
 3.  **OpenAI Summarization:** The retrieved context is sent to OpenAI to generate a structured, audio-optimized summary.
 4.  **Content Moderation:** The summary is checked against OpenAI's moderation API.
 5.  **Switch Node:** Routes the workflow based on if the content was flagged.
-    *   **Flagged Path:** Extracts violation categories, logs them to Google Sheets, and prepends a warning to the summary.
     *   **Clean Path:** Continues normally.
+    *   **Flagged Path:** Extracts violation categories, logs them to Google Sheets, and prepends a warning to the summary.
 6.  **Audio Generation:** The summary text is converted to an MP3 audio file.
 7.  **Email Delivery:** The audio file and summary text are sent to the user's email address.
    
