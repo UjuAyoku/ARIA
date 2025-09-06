@@ -3,9 +3,8 @@
 <div align="center">
   <h1>ARIA: Audio Research & Intelligence Assistant</h1>
 ARIA is an automated research assistant built in n8n. It fetches academic data with Perplexity AI, summarizes with OpenAI, checks for safety issues, converts results to audio, and emails them to users, while logging any policy violations.
-
   
-[![Live Demo](https://img.shields.io/badge/Demo-green)]()
+[![Live Demo](https://img.shields.io/badge/Demo-green)](https://www.youtube.com/embed/HwIVyqfqG2Q?si=xWUxhOe12fV0BzOO)
 
 </div>
 
