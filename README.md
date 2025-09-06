@@ -5,7 +5,7 @@
 ARIA is an automated research assistant built in n8n. It fetches academic data with Perplexity AI, summarizes with OpenAI, checks for safety issues, converts results to audio, and emails them to users, while logging any policy violations.
 
   
-[![Live Demo](https://img.shields.io/badge/Try-Live_Demo-green)]()
+[![Live Demo](https://img.shields.io/badge/Demo-green)]()
 
 </div>
 
@@ -21,7 +21,7 @@ ARIA will be useful for:
 
 ## Demo Link
 
-Available upon request (contact me to see ARIA in action)
+[Demo Video](https://www.youtube.com/embed/HwIVyqfqG2Q?si=xWUxhOe12fV0BzOO) (contact me to see ARIA in action)
 <p align="left">
   <img src="https://github.com/UjuAyoku/ARIA/blob/main/images/UI.PNG" alt="Logo" width="250">
 </p>
