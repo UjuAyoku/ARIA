@@ -74,12 +74,13 @@ Available upon request (contact me to see ARIA in action)
 | Component | Technology |
 | :--- | :--- |
 | **Workflow Automation** | n8n |
-| **LLM Summarization** | OpenAI GPT Models |
+| **LLM Summarization** | OpenAI GPT Model |
 | **Academic Retrieval** | Perplexity AI |
 | **Content Moderation** | OpenAI Moderation API |
 | **Audio Generation** | OpenAI Text-to-Speech (TTS) |
 | **Data Logging** | Google Sheets API |
 | **Delivery** | SMTP (Gmail) |
+| **Evaluation** | OpenAI GPT Model |
 
 ## Customization
 
