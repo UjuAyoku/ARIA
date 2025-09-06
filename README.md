@@ -23,7 +23,7 @@ ARIA will be useful for:
 
 Available upon request (contact me to see ARIA in action)
 <p align="left">
-  <img src="https://github.com/UjuAyoku/ARIA/blob/main/images/UI.PNG" alt="Logo" width="300">
+  <img src="https://github.com/UjuAyoku/ARIA/blob/main/images/UI.PNG" alt="Logo" width="250">
 </p>
 
 
