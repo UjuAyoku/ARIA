@@ -41,7 +41,7 @@ Available upon request (contact me to see ARIA in action)
 ## Workflow Overview
 ![n8n Workflow Diagram](./images/workflow-diagram.PNG) 
 
-1.  **Trigger:** The workflow is initiated by submitting an n8n form.
+1.  **Trigger:** The workflow is initiated by submitting a form.
 2.  **Perplexity Node:** The user's query is sent to Perplexity AI to retrieve information from academic sources.
 3.  **OpenAI Summarization:** The retrieved context is sent to OpenAI to generate a structured, audio-optimized summary.
 4.  **Content Moderation:** The summary is checked against OpenAI's moderation API.
