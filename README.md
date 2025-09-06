@@ -2,7 +2,7 @@
 
 <div align="center">
   <h1>ARIA: Audio Research & Intelligence Assistant</h1>
-An automated, AI-powered research assistant built with n8n. This workflow takes a research topic, fetches data from academic sources using Perplexity AI, generates a concise summary with OpenAI, performs content safety checks, converts the summary to audio, and delivers the final result via email, while logging any potential policy violations.
+ARIA is an automated research assistant built in n8n. It fetches academic data with Perplexity AI, summarizes with OpenAI, checks for safety issues, converts results to audio, and emails them to users, while logging any policy violations.
 
   
 [![Live Demo](https://img.shields.io/badge/Try-Live_Demo-green)]()
@@ -21,7 +21,7 @@ ARIA will be useful for:
 
 ## Demo Link
 
-Available on request
+Available upon request (contact me to see ARIA in action)
 <p align="left">
   <img src="https://github.com/UjuAyoku/ARIA/blob/main/images/UI.PNG" alt="Logo" width="400">
 </p>
@@ -29,7 +29,7 @@ Available on request
 
 ## Features
 
-*   **Trigger:** n8n search Form
+*   **User-Friendly Input:** Submit research topics through a simple form interface.
 *   **Academic Source Retrieval:** Fetches data from reputable sources (arXiv, PubMed, etc.) using the Perplexity API.
 *   **AI-Powered Summarization:** Uses OpenAI's GPT models to create clear, conversational, and objective summaries.
 *   **Content Safety Check:** Automatically classifies generated text for safety policy violations using OpenAI's Moderation endpoint.
@@ -39,6 +39,7 @@ Available on request
 *   **Modular Design:** Easy to customize and extend.
 
 ## Workflow Overview
+![n8n Workflow Diagram](./images/workflow-diagram.PNG) 
 
 1.  **Trigger:** The workflow is initiated by submitting an n8n form.
 2.  **Perplexity Node:** The user's query is sent to Perplexity AI to retrieve information from academic sources.
@@ -50,11 +51,9 @@ Available on request
 6.  **Audio Generation:** The summary text is converted to an MP3 audio file.
 7.  **Email Delivery:** The audio file and summary text are sent to the user's email address.
    
-![n8n Workflow Diagram](./images/workflow-diagram.PNG) 
-
 ## Requirements
 
-*   An n8n instance [n8n Cloud](https://n8n.io/)
+*   An n8n account [n8n Cloud](https://n8n.io/)
 *   API Keys for:
     *   [OpenAI](https://platform.openai.com/api-keys)
     *   [Perplexity AI](https://www.perplexity.ai/settings/api)
@@ -69,6 +68,18 @@ Available on request
     *   The researched summary in the body.
     *   The narrated audio file (MP3) as an attachment.
 3.  **Review Logs:** If the content was flagged, the violation categories will be logged in your configured Google Sheet.
+
+## Tech Stack
+
+| Component | Technology |
+| :--- | :--- |
+| **Workflow Automation** | n8n |
+| **LLM Summarization** | OpenAI GPT Models |
+| **Academic Retrieval** | Perplexity AI |
+| **Content Moderation** | OpenAI Moderation API |
+| **Audio Generation** | OpenAI Text-to-Speech (TTS) |
+| **Data Logging** | Google Sheets API |
+| **Delivery** | SMTP (Gmail) |
 
 ## Customization
 
