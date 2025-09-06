@@ -12,6 +12,13 @@ An automated, AI-powered research assistant built with n8n. This workflow takes 
 ## Problem
 Manually researching a topic means opening dozens of browser tabs, reading papers from different sources, and synthesizing the information yourself. It's time-consuming and often repetitive. 
 
+ARIA will be useful for:
+
+* Researchers – Saves time scanning dozens of papers.
+* Students – Makes academic research easier to understand and listen to on the go.
+* Institutions – Keeps track of flagged or sensitive content for compliance.
+
+
 ## Demo Link
 
 Available on request
