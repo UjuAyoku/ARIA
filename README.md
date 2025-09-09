@@ -25,6 +25,15 @@ ARIA will be useful for:
   <img src="https://github.com/UjuAyoku/ARIA/blob/main/images/UI.PNG" alt="Logo" width="250">
 </p>
 
+## Research Report
+If you are interested in the research methodology behind this project, including:
+- Problem framing
+- Experimental setup
+- Evaluation metrics
+- Results & limitations
+- Future work
+
+[View Research Writeup](https://github.com/UjuAyoku/ARIA/blob/main/research-report.md)
 
 ## Features
 
