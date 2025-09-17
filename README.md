@@ -20,7 +20,7 @@ ARIA will be useful for:
 
 ## Demo 
 
-[Link](https://www.youtube.com/embed/HwIVyqfqG2Q?si=xWUxhOe12fV0BzOO) (contact me to see ARIA in action)
+[]() (contact me to see ARIA in action)
 <p align="left">
   <img src="https://github.com/UjuAyoku/ARIA/blob/main/images/UI.PNG" alt="Logo" width="250">
 </p>
